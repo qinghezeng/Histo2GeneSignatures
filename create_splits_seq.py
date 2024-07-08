@@ -16,7 +16,7 @@ parser.add_argument('--task', type=str, choices=['tcga_hcc_349_6G_Interferon_Gam
                                                  'tcga_hcc_349_Gajewski_13G_Inflammatory_cv_highvsrest_622',
                                                  'tcga_hcc_349_Inflammatory_cv_highvsrest_622',
                                                  'tcga_hcc_349_Interferon_Gamma_Biology_cv_highvsrest_622',
-                                                 'tcga_hcc_349_Ribas_10G_Interferon_Gamma_cv_highvsrest_622'
+                                                 'tcga_hcc_349_Ribas_10G_Interferon_Gamma_cv_highvsrest_622',
                                                  'tcga_hcc_349_T-cell_Exhaustion_cv_highvsrest_622'])
 
 args = parser.parse_args()
